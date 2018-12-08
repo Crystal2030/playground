@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Velocity Application - Welcome</title>
+</head>
+<body>
+<table border="5px">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+        <th>operation</th>
+    </tr>
+    #foreach($person in $personList)
+        <tr>
+            <td>$person.id</td>
+            <td>$person.name</td>
+            <td>$person.age</td>
+            <td><a href="delete?id=$person.id">delete this</a></td>
+        </tr>
+    #end
+</table>
+<p>
+    <a href="choose">choose</a>
+</p>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+    <display-name>Basic Velocity</display-name>
+
+    <!-- 新增 -->
+    <servlet>
+        <servlet-name>add</servlet-name>
+        <servlet-class>com.study.servlet.AddServlet</servlet-class>
+        <init-param>
+            <param-name>dog</param-name>
+            <param-value>cute dog</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <!-- 删除 -->
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>com.study.servlet.DeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+    <!-- 展示 -->
+    <servlet>
+        <servlet-name>show</servlet-name>
+        <servlet-class>com.study.servlet.ShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>show</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+
+    <!-- 批量 insert -->
+    <servlet>
+        <servlet-name>batchInsert</servlet-name>
+        <servlet-class>com.study.servlet.BatchInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>batchInsert</servlet-name>
+        <url-pattern>/batchInsert</url-pattern>
+    </servlet-mapping>
+
+    <!-- truncate -->
+    <servlet>
+        <servlet-name>truncate</servlet-name>
+        <servlet-class>com.study.servlet.TruncateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>truncate</servlet-name>
+        <url-pattern>/truncate</url-pattern>
+    </servlet-mapping>
+
+    <!-- 选择 -->
+    <servlet>
+        <servlet-name>choose</servlet-name>
+        <servlet-class>com.study.servlet.ChooseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>choose</servlet-name>
+        <url-pattern>/choose</url-pattern>
+    </servlet-mapping>
+</web-app>

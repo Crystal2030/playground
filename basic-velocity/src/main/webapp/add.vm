@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+</head>
+<body>
+
+<form method="post" action="add">
+    <input type="text" id="name" name="name" label="Your name"/>
+    <input type="text" id="age" name="age" label="Your age"/>
+    <input type="submit" value="Submit"/>
+</form>
+
+<p>
+    <a href="choose">choose</a>
+</p>
+</body>
+</html>

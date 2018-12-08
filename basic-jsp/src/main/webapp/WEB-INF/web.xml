@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+    <display-name>Basic JSP</display-name>
+
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showHeader</servlet-name>
+        <jsp-file>/showHeader.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showHeader</servlet-name>
+        <url-pattern>/showHeader</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showStackTrace</servlet-name>
+        <jsp-file>/showStackTrace.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showStackTrace</servlet-name>
+        <url-pattern>/showStackTrace</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showPopulation</servlet-name>
+        <jsp-file>/showPopulation.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showPopulation</servlet-name>
+        <url-pattern>/showPopulation</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>filterOne</filter-name>
+        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filterOne</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    <filter>
+        <filter-name>filterTwo</filter-name>
+        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filterTwo</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    <servlet>
+        <servlet-name>showCookie</servlet-name>
+        <jsp-file>/cookie/showCookie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showCookie</servlet-name>
+        <url-pattern>/showCookie</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addCookie</servlet-name>
+        <jsp-file>/cookie/addCookie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCookie</servlet-name>
+        <url-pattern>/addCookie</url-pattern>
+    </servlet-mapping>
+    
+    <listener>
+        <listener-class>com.study.jsp.listener.BasicListener</listener-class>
+    </listener>
+</web-app>

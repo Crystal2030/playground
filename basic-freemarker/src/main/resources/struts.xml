@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="名字不重要" extends="struts-default">
+        <action name="add" class="com.study.servlet.Add" method="execute">
+            <result type="freemarker" name="input">/add.ftl</result>
+            <result type="freemarker" name="success">/choose.ftl</result>
+        </action>
+
+        <action name="delete" class="com.study.servlet.Delete" method="execute">
+            <result type="freemarker" name="input">/delete.ftl</result>
+            <result type="freemarker" name="success">/choose.ftl</result>
+        </action>
+
+        <action name="show" class="com.study.servlet.Show" method="execute">
+            <result type="freemarker">/show.ftl</result>
+        </action>
+
+        <action name="choose" class="com.opensymphony.xwork2.ActionSupport" method="execute">
+            <result type="freemarker">/choose.ftl</result>
+        </action>
+
+        <action name="truncate" class="com.study.servlet.Truncate" method="execute">
+            <result type="freemarker">/choose.ftl</result>
+        </action>
+
+        <action name="batchInsert" class="com.study.servlet.BatchInsert" method="execute">
+            <result type="freemarker">/choose.ftl</result>
+        </action>
+    </package>
+
+</struts>

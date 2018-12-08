@@ -1,0 +1,11 @@
+# data copied from https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+1	 China	1,395,590,000	December 7, 2018	18.2%	Official population clock
+2	 India	1,340,520,000	December 7, 2018	17.5%	Official population clock
+3	 United States	328,303,000	December 7, 2018	4.28%	Official population clock
+4	 Indonesia	265,015,300	July 1, 2018	3.46%	Official annual projection
+5	 Brazil	209,946,000	December 7, 2018	2.74%	Official population clock
+6	 Pakistan	202,917,000	December 7, 2018	2.65%	Official population clock
+7	 Nigeria	193,392,517	July 1, 2016	2.52%	Official estimate
+8	 Bangladesh	165,660,000	December 7, 2018	2.16%	Official population clock
+9	 Russia	146,877,088	January 1, 2018	1.92%	Official estimate
+10	 Japan	126,450,000	November 1, 2018	1.65%	Monthly provisional estimate

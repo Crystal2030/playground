@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+</head>
+<body>
+<p>
+    <s:form action="delete">
+        <s:textfield name="id" label="which id to delete"/>
+        <s:submit value="Submit"/>
+    </s:form>
+</p>
+<p>
+    <a href="choose">choose</a>
+</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+    <display-name>Basic JSP</display-name>
+
+    <servlet>
+        <servlet-name>basicServlet</servlet-name>
+        <servlet-class>com.study.servlet.BasicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>basicServlet</servlet-name>
+        <url-pattern>/basic</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>stackTraceServlet</servlet-name>
+        <servlet-class>com.study.servlet.StackTraceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>stackTraceServlet</servlet-name>
+        <url-pattern>/stackTrace</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>simpleHttpServlet</servlet-name>
+        <servlet-class>com.study.servlet.SimpleHttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>simpleHttpServlet</servlet-name>
+        <url-pattern>/simpleHttp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>initParamServlet</servlet-name>
+        <servlet-class>com.study.servlet.InitParamServlet</servlet-class>
+        <init-param>
+            <param-name>arbitraryKeyOne</param-name>
+            <param-value>1984</param-value>
+        </init-param>
+        <init-param>
+            <param-name>arbitraryKeyTwo</param-name>
+            <!-- Roman Numerals: MCMLXXXIV = 1984 -->
+            <param-value>MCMLXXXIV</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>initParamServlet</servlet-name>
+        <url-pattern>/initParam</url-pattern>
+    </servlet-mapping>
+</web-app>

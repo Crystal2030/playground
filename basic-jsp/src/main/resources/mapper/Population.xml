@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.jsp.dao.PopulationDao">
+
+    <resultMap id="Population" type="com.study.jsp.entity.Population">
+        <result column="rank" property="rank"/>
+        <result column="country" property="country"/>
+        <result column="population" property="population"/>
+    </resultMap>
+
+    <select id="loadPopulation" resultMap="Population">
+        SELECT
+        rank, country, population
+        FROM
+        Population;
+    </select>
+</mapper>
