@@ -10,7 +10,9 @@
 
     <select id="loadPopulation" resultMap="Population">
         SELECT
-        rank, country, population
+        `rank`,
+        `country`,
+        `population`
         FROM
         Population;
     </select>

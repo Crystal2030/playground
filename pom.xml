@@ -21,6 +21,7 @@
         <module>basic-struts</module>
         <module>basic-velocity</module>
         <module>basic-freemarker</module>
+        <module>basic-spring-mvc</module>
     </modules>
 
     <build>
