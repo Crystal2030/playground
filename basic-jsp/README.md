@@ -14,7 +14,8 @@
 | showHeader.jsp  | 展示请求中的 header 信息 | /showHeader |
 | showStackTrace.jsp | 展示函数调用栈 | /showStackTrace |
 | showPopulation.jsp | 展示一个 MySQL 表中的数据 | /showPopulation |
-| addCookie.jsp | 添加? | ? |
+| addCookie.jsp | 添加一个 Cookie | /addCookie |
+| showCookie.jsp | 展示 Cookie | /showCookie |
 
 # 通过 JSP 展示一个简单的页面
 ## 操作步骤
@@ -68,11 +69,12 @@
 2. 运行 Python3 程序: [scripts/python3/showPopulation.py](scripts/python3/showPopulation.py)
 3. 运行 shell 程序: [scripts/sh/showPopulation.sh](scripts/sh/showPopulation.sh)
 
-# 后面的部分有待补充
+# 添加 Cookie 与展示 Cookie
 1. 在本 module 的顶层目录执行 `mvn jetty:run` 命令, 启动项目
-2. 项目启动后访问 [http://localhost:8080/basic-jsp/showHeader](http://localhost:8080/basic-jsp/showHeader), 可以看到请求中的 header 信息(也可以通过 [scripts/run/showHeader.py](scripts/run/showHeader.py) 来访问)
-3. 项目启动后访问 [http://localhost:8080/basic-jsp/showPopulation](http://localhost:8080/basic-jsp/showPopulation), 可以看到 `study.Population` 表中的相关信息(也可以通过 [scripts/run/showPopulation.py](scripts/run/showPopulation.py) 来访问)
-4. 项目启动后访问 [http://localhost:8080/basic-jsp/showStackTrace](http://localhost:8080/basic-jsp/showStackTrace), 可以看到函数调用栈
+2. 项目启动后访问 [http://localhost:8080/basic-jsp/addCookie](http://localhost:8080/basic-jsp/addCookie), 将响应里的 html 页面称为 R1
+3. 点击 R1 中的链接, 将本次响应的 html 页面称为 R2. R2 中可以看到相关的 Cookie 信息
+
+# 后面的部分有待补充
 
 # 一些参考资料
 1. [web.xml from google doc](https://cloud.google.com/appengine/docs/standard/java/config/webxml)

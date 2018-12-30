@@ -13,9 +13,10 @@ public class BasicFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
-        System.out.println(String.format("已经进入 %s 的 doFilter", filterConfig.getFilterName()));
+        String filterName = filterConfig.getFilterName();
+        System.out.println(String.format("已经进入 %s 的 doFilter", filterName));
         chain.doFilter(req, res);
-        System.out.println(String.format("即将离开 %s 的 doFilter", filterConfig.getFilterName()));
+        System.out.println(String.format("即将离开 %s 的 doFilter", filterName));
     }
 
     @Override

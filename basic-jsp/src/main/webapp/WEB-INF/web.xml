@@ -38,24 +38,15 @@
         <url-pattern>/showPopulation</url-pattern>
     </servlet-mapping>
 
-    <filter>
-        <filter-name>filterOne</filter-name>
-        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>filterOne</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-    
-    <filter>
-        <filter-name>filterTwo</filter-name>
-        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>filterTwo</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-    
+    <servlet>
+        <servlet-name>addCookie</servlet-name>
+        <jsp-file>/cookie/addCookie.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCookie</servlet-name>
+        <url-pattern>/addCookie</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>showCookie</servlet-name>
         <jsp-file>/cookie/showCookie.jsp</jsp-file>
@@ -66,14 +57,59 @@
     </servlet-mapping>
     
     <servlet>
-        <servlet-name>addCookie</servlet-name>
-        <jsp-file>/cookie/addCookie.jsp</jsp-file>
+        <servlet-name>placeholder</servlet-name>
+        <jsp-file>/placeholder.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>addCookie</servlet-name>
-        <url-pattern>/addCookie</url-pattern>
+        <servlet-name>placeholder</servlet-name>
+        <url-pattern>/placeholder</url-pattern>
     </servlet-mapping>
-    
+
+    <filter>
+        <filter-name>filterOne</filter-name>
+        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filterOne</filter-name>
+        <url-pattern>/placeholder</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>filterTwo</filter-name>
+        <filter-class>com.study.jsp.filter.BasicFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filterTwo</filter-name>
+        <url-pattern>/placeholder</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>autoCorrectFilter</filter-name>
+        <filter-class>com.study.jsp.filter.AutoCorrectFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>autoCorrectFilter</filter-name>
+        <url-pattern>/autoCorrect</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>autoCorrect</servlet-name>
+        <jsp-file>/autoCorrectResult.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>autoCorrect</servlet-name>
+        <url-pattern>/autoCorrect</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>basic-jstl</servlet-name>
+        <jsp-file>/basic-jstl.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>basic-jstl</servlet-name>
+        <url-pattern>/basic-jstl</url-pattern>
+    </servlet-mapping>
+
     <listener>
         <listener-class>com.study.jsp.listener.BasicListener</listener-class>
     </listener>

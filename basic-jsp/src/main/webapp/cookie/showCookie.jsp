@@ -21,10 +21,8 @@
         </td>
     </tr>
     <%
-
         }
     %>
 </table>
-<a href="addCookie">add cookie</a>
 </body>
 </html>
