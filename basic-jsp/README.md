@@ -24,7 +24,7 @@
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/index 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/index` 或直接点击 [http://localhost:8080/basic-jsp/index](http://localhost:8080/basic-jsp/index)
-2. 运行 Python3 程序: [scripts/python3/index.py](scripts/python3/index.py)
+2. 运行 Python3 程序: [scripts/python3/run/index.py](scripts/python3/run/index.py)
 3. 运行 shell 程序: [scripts/sh/index.sh](scripts/sh/index.sh)
 
 
@@ -36,7 +36,7 @@
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/showHeader 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/showHeader` 或直接点击 [http://localhost:8080/basic-jsp/showHeader](http://localhost:8080/basic-jsp/showHeader)
-2. 运行 Python3 程序: [scripts/python3/showHeader.py](scripts/python3/showHeader.py)
+2. 运行 Python3 程序: [scripts/python3/run/showHeader.py](scripts/python3/run/showHeader.py)
 3. 运行 shell 程序: [scripts/sh/showHeader.sh](scripts/sh/showHeader.sh)
 
 
@@ -48,7 +48,7 @@
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/showStackTrace 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/showStackTrace` 或直接点击 [http://localhost:8080/basic-jsp/showStackTrace](http://localhost:8080/basic-jsp/showStackTrace)
-2. 运行 Python3 程序: [scripts/python3/showStackTrace.py](scripts/python3/showStackTrace.py)
+2. 运行 Python3 程序: [scripts/python3/run/showStackTrace.py](scripts/python3/run/showStackTrace.py)
 3. 运行 shell 程序: [scripts/sh/showStackTrace.sh](scripts/sh/showStackTrace.sh)
 
 
