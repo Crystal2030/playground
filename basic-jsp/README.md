@@ -2,7 +2,7 @@
 尝试 JSP 的简单使用, 包括
 1. 通过 JSP 展示一个简单的页面
 2. 通过 JSP 展示请求中的 header 信息
-3. 通过 JSP 展示函数函数调用栈
+3. 通过 JSP 展示函数调用栈
 4. 通过 JSP 展示一个 MySQL 表中的数据
 5. 通过 JSP 展示 Cookie 信息
 6. Filter 与 Listener 的使用入门
@@ -12,9 +12,9 @@
 ------------- | ------------- | --- |
 | index.jsp  | 展示一个简单的页面 | /index |
 | showHeader.jsp  | 展示请求中的 header 信息 | /showHeader |
-| showStackTrace.jsp | 展示函数函数调用栈 | /showStackTrace |
+| showStackTrace.jsp | 展示函数调用栈 | /showStackTrace |
 | showPopulation.jsp | 展示一个 MySQL 表中的数据 | /showPopulation |
-| addCookie.jsp | 添加
+| addCookie.jsp | 添加? | ? |
 
 # 通过 JSP 展示一个简单的页面
 ## 操作步骤
@@ -23,7 +23,7 @@
 
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/index 发送 http 请求
-1. 在浏览器地址栏输入 http://localhost:8080/basic-jsp/index 或直接点击 [http://localhost:8080/basic-jsp/index](http://localhost:8080/basic-jsp/index)
+1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/index` 或直接点击 [http://localhost:8080/basic-jsp/index](http://localhost:8080/basic-jsp/index)
 2. 运行 Python3 程序: [scripts/python3/index.py](scripts/python3/index.py)
 3. 运行 shell 程序: [scripts/sh/index.sh](scripts/sh/index.sh)
 
@@ -35,7 +35,7 @@
 
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/showHeader 发送 http 请求
-1. 在浏览器地址栏输入 http://localhost:8080/basic-jsp/showHeader 或直接点击 [http://localhost:8080/basic-jsp/showHeader](http://localhost:8080/basic-jsp/showHeader)
+1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/showHeader` 或直接点击 [http://localhost:8080/basic-jsp/showHeader](http://localhost:8080/basic-jsp/showHeader)
 2. 运行 Python3 程序: [scripts/python3/showHeader.py](scripts/python3/showHeader.py)
 3. 运行 shell 程序: [scripts/sh/showHeader.sh](scripts/sh/showHeader.sh)
 
@@ -47,7 +47,7 @@
 
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/showStackTrace 发送 http 请求
-1. 在浏览器地址栏输入 http://localhost:8080/basic-jsp/showStackTrace 或直接点击 [http://localhost:8080/basic-jsp/showStackTrace](http://localhost:8080/basic-jsp/showStackTrace)
+1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/showStackTrace` 或直接点击 [http://localhost:8080/basic-jsp/showStackTrace](http://localhost:8080/basic-jsp/showStackTrace)
 2. 运行 Python3 程序: [scripts/python3/showStackTrace.py](scripts/python3/showStackTrace.py)
 3. 运行 shell 程序: [scripts/sh/showStackTrace.sh](scripts/sh/showStackTrace.sh)
 
@@ -64,7 +64,7 @@
 
 ## 如何发送 http 请求
 可以采取以下方式向 http://localhost:8080/basic-jsp/showPopulation 发送 http 请求
-1. 在浏览器地址栏输入 http://localhost:8080/basic-jsp/showPopulation 或直接点击 [http://localhost:8080/basic-jsp/showPopulation](http://localhost:8080/basic-jsp/showPopulation)
+1. 在浏览器地址栏输入 `http://localhost:8080/basic-jsp/showPopulation` 或直接点击 [http://localhost:8080/basic-jsp/showPopulation](http://localhost:8080/basic-jsp/showPopulation)
 2. 运行 Python3 程序: [scripts/python3/showPopulation.py](scripts/python3/showPopulation.py)
 3. 运行 shell 程序: [scripts/sh/showPopulation.sh](scripts/sh/showPopulation.sh)
 

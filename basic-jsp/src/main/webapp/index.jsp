@@ -30,6 +30,7 @@
         pageContext.setAttribute("a", a, PageContext.PAGE_SCOPE);
         pageContext.setAttribute("b", b, PageContext.REQUEST_SCOPE);
     %>
+    <!-- 下一行使用了 EL 表达式 -->
     ${pageScope.a} + ${requestScope.b} = ${pageScope.a + requestScope.b}
 </p>
 <p>

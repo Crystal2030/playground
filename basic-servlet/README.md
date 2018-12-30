@@ -25,7 +25,7 @@
 
 按照 [web.xml](src/main/webapp/WEB-INF/web.xml) 中的配置, 对 [http://localhost:8080/basic-servlet/basic](http://localhost:8080/basic-servlet/basic) 这个 url 的请求会由 `basicServlet` 来处理.
 
-可以通过以下几种方式来对这个 url 发送 http 请求
+可以通过以下几种方式向这个 url 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-servlet/basic` 或直接点击 [http://localhost:8080/basic-servlet/basic](http://localhost:8080/basic-servlet/basic)
 2. 运行 `Python3` 程序: [scripts/python3/basic.py](scripts/python3/basic.py) 
 3. 运行 `shell` 程序: [scripts/sh/basic.sh](scripts/sh/basic.sh)
@@ -38,7 +38,7 @@
 
 按照 [web.xml](src/main/webapp/WEB-INF/web.xml) 中的配置, 对 [http://localhost:8080/basic-servlet/stackTrace](http://localhost:8080/basic-servlet/stackTrace) 这个 url 的请求会由 `stackTraceServlet` 来处理.
 
-可以通过以下几种方式来对这个 url 发送 http 请求
+可以通过以下几种方式向这个 url 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-servlet/stackTrace` 或直接点击 [http://localhost:8080/basic-servlet/stackTrace](http://localhost:8080/basic-servlet/stackTrace)
 2. 运行 `Python3` 程序: [scripts/python3/stackTrace.py](scripts/python3/stackTrace.py) 
 3. 运行 `shell` 程序: [scripts/sh/stackTrace.sh](scripts/sh/stackTrace.sh)
@@ -51,8 +51,8 @@
 
 按照 [web.xml](src/main/webapp/WEB-INF/web.xml) 中的配置, 对 [http://localhost:8080/basic-servlet/simpleHttp](http://localhost:8080/basic-servlet/simpleHttp) 这个 url 的请求会由 `simpleHttpServlet` 来处理.
 
-可以通过以下几种方式来对这个 url 发送 http 请求
-1. 在浏览器地址栏输入 `http://localhost:8080/basic-servlet/simpleHttp` 或直接点击 [http://localhost:8080/basic-servlet/simpleHttp](http://localhost:8080/basic-servlet/simpleHttp)
+可以通过以下几种方式向这个 url 发送 http 请求
+1. 在浏览器地址栏输入 `http://localhost:8080/basic-servlet/simpleHttp` 或直接点击 [http://localhost:8080/basic-servlet/simpleHttp](http://localhost:8080/basic-servlet/simpleHttp) 来发送 `GET` 请求
 2. 通过运行 `Python3` 程序发送 `GET` 请求: [scripts/python3/sendGet.py](scripts/python3/sendGet.py) 
 3. 通过运行 `Python3` 程序发送 `POST` 请求: [scripts/python3/sendPost.py](scripts/python3/sendPost.py) 
 4. 通过运行 `shell` 程序发送 `GET` 请求: [scripts/sh/sendGet.sh](scripts/sh/sendGet.sh)
@@ -64,7 +64,7 @@
 
 按照 [web.xml](src/main/webapp/WEB-INF/web.xml) 中的配置, 对 [http://localhost:8080/basic-servlet/initParam](http://localhost:8080/basic-servlet/initParam) 这个 url 的请求会由 `initParamServlet` 来处理.
 
-可以通过以下几种方式来对这个 url 发送 http 请求
+可以通过以下几种方式向这个 url 发送 http 请求
 1. 在浏览器地址栏输入 `http://localhost:8080/basic-servlet/initParam` 或直接点击 [http://localhost:8080/basic-servlet/initParam](http://localhost:8080/basic-servlet/initParam)
 2. 运行 `Python3` 程序: [scripts/python3/initParam.py](scripts/python3/initParam.py) 
 3. 运行 `shell` 程序: [scripts/sh/initParam.sh](scripts/sh/initParam.sh)
